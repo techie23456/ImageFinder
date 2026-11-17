@@ -33,7 +33,7 @@ app.use(express.json());
       str="ghghgh"
    }
    else{
-     res.send({received:' https://raw.githubusercontent.com/techie23456/burgerZoom/refs/heads/main/burgetScan.png'})
+     res.send({received:'https://raw.githubusercontent.com/techie23456/burgerZoom/refs/heads/main/burgetScan.png'})
    }  
 })
 
