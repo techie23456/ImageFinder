@@ -21,13 +21,34 @@ app.use(express.json());
     //   res.send({received:})
 
     https://raw.githubusercontent.com/techie23456/burgerZoom/refs/heads/main/burgetScan.png
+
+   
+
+
    if(req.body.question === "dragon")
    {
       res.send({received:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdxh9j9A6MwsayxAIkwRZTLiucT1KYOPKDEP85TL-uhWqHayj3'})
+      str="ghghgh"
+   }
+   else if(req.body.question === "avinash")
+   {
+      res.send({received:'https://raw.githubusercontent.com/techie23456/ai-images/refs/heads/main/Avinash.jpg'})
+      str="ghghgh"
+   }
+    else if(req.body.question === "aadhaar Card" || req.body.question === "aadhaar"||req.body.question === "aadhaarCard" )
+   {
+      res.send({received:'https://raw.githubusercontent.com/techie23456/ai-images/refs/heads/main/AADHAAr_Card.png'})
+      str="ghghgh"
+   }
+    else if(req.body.question === "pan card" || req.body.question === "pancard"||req.body.question === "panCard" )
+   {
+      res.send({received:'https://raw.githubusercontent.com/techie23456/ai-images/refs/heads/main/PAN_Card.jpg'})
+      str="ghghgh"
    }
    else{
      res.send({received:' https://raw.githubusercontent.com/techie23456/burgerZoom/refs/heads/main/burgetScan.png'})
    }
+
 
       
 })
